@@ -1,0 +1,44 @@
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e6f9ff;
+}
+
+.container{
+  width: 700px;
+  margin: 8rem auto;
+  padding: 3rem;
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  border-radius: .3rem;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: red;
+}
+#take-input{
+  width: 300px;
+  margin: 0 auto;
+}
+#take-input input{
+  width: 70%;
+  display: inline-block;
+}
+#take-input button{
+  width: 25%;
+  display: inline-block;
+}
+#results{
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+#results li:first-child{
+  color: green;
+}
