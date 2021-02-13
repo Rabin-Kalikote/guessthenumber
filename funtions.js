@@ -10,8 +10,11 @@ document.getElementById("submit-guess").onclick = function() {
   } else if (guess < number) {
     li.textContent = "You guess is too low."
     document.getElementById("results").prepend(li);
-  } else{
+  } else if (guess == number) {
     li.textContent = "Congrats! Correct guess."
+    document.getElementById("results").prepend(li);
+  } else {
+    li.textContent = "You guess is invalid."
     document.getElementById("results").prepend(li);
   }
 };
