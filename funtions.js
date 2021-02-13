@@ -3,6 +3,7 @@ const number = Math.floor((Math.random() * 20) + 1);
 
 document.getElementById("submit-guess").onclick = function() {
   var guess = parseInt(document.getElementById("guess").value);
+  alert(guess);
   var li = document.createElement('li');
   if(guess > number) {
     li.textContent = "You guess is too high."
